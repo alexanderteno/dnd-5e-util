@@ -59,7 +59,7 @@ class Currency:
                 
 
 
-currency = Currency({CurrencyType.COPPER: 0, CurrencyType.SILVER: 0, CurrencyType.ELECTRUM: 0, CurrencyType.GOLD: 6230, CurrencyType.PLATINUM: 634})
+currency = Currency({CurrencyType.COPPER: 0, CurrencyType.SILVER: 67, CurrencyType.ELECTRUM: 0, CurrencyType.GOLD: 1933, CurrencyType.PLATINUM: 903})
 currency.reduce()
 
 print(currency)

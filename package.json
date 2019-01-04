@@ -1,0 +1,27 @@
+{
+  "name": "dnd-5e-util",
+  "version": "1.0.0",
+  "description": "DND 5E Utility to help with various things",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderteno/dnd-5e-util.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Alexander Teno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderteno/dnd-5e-util/issues"
+  },
+  "homepage": "https://github.com/alexanderteno/dnd-5e-util#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
