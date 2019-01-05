@@ -18,7 +18,7 @@ client.on('message', message => {
             case "optimize":
                 const currencyConverter = new CurrencyExchange.CurrencyConverter(args);
                 currencyConverter.optimize();
-                message.reply('Pong!');
+                message.reply(currencyConverter.getInventory());
                 break;
         }
     }

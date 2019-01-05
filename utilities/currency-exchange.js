@@ -68,8 +68,12 @@ class CurrencyConverter {
         });
     }
 
-    getConversion() {
-        return this.inventory;
+    getInventory() {
+        const reducedInventory = Object.keys(this.inventory).reduce((acc, key) => {
+            acc.push(`${key}: ${this.inventory[key]}`)
+            return acc;
+        }, [])
+        return reducedInventory.join('\n');
     }
 
 }
